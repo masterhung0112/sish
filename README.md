@@ -2,6 +2,12 @@
 
 An open source serveo/ngrok alternative.
 
+## Command
+
+```
+ssh -p 8222 -R 80:localhost:8080 hungknow.tk
+```
+
 ## Deploy
 
 Builds are made automatically for each commit to the repo and are pushed to Dockerhub. Builds are
